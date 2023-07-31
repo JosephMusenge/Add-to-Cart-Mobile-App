@@ -4,6 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
         <title>Add to Cart</title>
+        <!-- font-awesome -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -14,14 +19,28 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-      <h1>Add Shopping List to Your Cart</h1>
-      <div class="container">
-          <img src="./assets/shopping-cart-empty-side-view.png" alt="image of a cart"/>
-          <input type="text" id="input-field" placeholder="Bread">
-          <button id="add-button">Add to cart</button>
-          <ul id="cart-items">
-          </ul>
-      </div>
+      <section class="section-center">
+        <!-- form -->
+        <form class="grocery-form">
+          <p class="alert"></p>
+          <h3>Shopping List App</h3>
+          <img src="./assets/shopping-cart-empty-side-view.png" alt="image of a cart">
+          <div class="form-control">
+            <input type="text" id="grocery" placeholder="e.g. eggs"/>
+            <button type="submit" class="submit-btn">
+              Add
+            </button>
+          </div>
+        </form>
+        <!-- list -->
+        <div class="grocery-container">
+          <div class="shopping-list">
+          
+          </div>
+          <!-- button -->
+          <button type="button" class="clear-btn">clear items</button>
+        </div>
+      </section>
       <script src="index.js" type="module"></script>
     </body>
 </html>
