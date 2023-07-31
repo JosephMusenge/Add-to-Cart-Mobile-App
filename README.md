@@ -70,7 +70,7 @@ Once the app is running, you will be presented with a simple user interface to m
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 1](screenshots/Screenshot(340).png)
 ![Screenshot 2](screenshots/Screenshot_20230731-011922_Chrome.jpg)
 
 ## Contributing
